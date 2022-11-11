@@ -394,9 +394,9 @@ ol.carousel-indicators li.active {
     font-family: 'raleway', sans-serif;
 }
 .footer {
-    background: #191919;
+    background: #0092be;
     padding: 50px 0px;
-    color: #fff;
+    color: #000000;
     margin-top: 50px;
 }
 .single-widget {
@@ -408,7 +408,7 @@ ol.carousel-indicators li.active {
     right: 0;
     top: 0;
     width: 1px;
-    background: #d5d5d5;
+    background: #000000;
     content: '';
     height: 100%;
     min-height: 230px;
