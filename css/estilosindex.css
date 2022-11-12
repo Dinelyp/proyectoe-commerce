@@ -448,3 +448,11 @@ ol.carousel-indicators li.active {
     padding-right: 0;
     color: #323232;
 }
+footer{
+    background-color: #1bb0ce;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+    
+    }
