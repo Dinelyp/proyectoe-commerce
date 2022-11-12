@@ -21,64 +21,122 @@
 <body>
     <!-- BARRA DE NAVEGACIÓN -->
 
-    <div class="container barranavegacion">
+    <div class="top-bar">
 
-        <div class="row">
-            <div class="col-md-3 col-sm-4">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="images/logo blue med.png" alt="" class="logo">
-                    </a>
-                </div>
-            </div>
+        <div class="container">
 
-            <!-- Barra de búsqueda -->
-            <div class="col-md-7 col-sm-5">
-                <div class="search-form">
-                    <form class="navbar-form" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Busca lo que necesites...">
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <div class="row">
 
+                <div class="col-md-6">
 
+                    <div class="social pull-left">
 
-            <!-- Carrito de compras -->
-            <div class="col-md-2 col-sm-3">
-                <div class="cart">
-                    <div class="cart-icon">
-                        <a href=""><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                    <div class="cart-text">
-                        CARRITO
-                        <br>
-                        0 productos - S/0.00
+                        <ul>
+
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
 
                     </div>
+
                 </div>
+
+                <div class="col-md-6">
+
+                    <div class="action pull-right">
+
+                        <ul>
+
+                            <li><a href=""><i class="fa fa-user"></i> Login</a></li>
+
+                            <li><a href=""><i class="fa fa-lock"></i> Registro</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
+
     </div>
 
-    <!-- Segunda barra de categorías -->
+    <div class="header">
 
-    <div id="navegador">
-        <ul>
-            <li>
-                <a href="#">Inicio</a>
-            </li>
-            <li>
-                <a href="#">Nosotros</a>
-            </li>
-            <li>
-                <a href="#">Productos</a>
-            </li>
-            <li>
-                <a href="#">Contacto</a>
-            </li>
-        </ul>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-4">
+
+                    <div class="logo">
+
+                        <a href="index.html">
+
+                            <img src="images/logo blue med.png" alt="Bluemed">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 col-sm-5">
+
+                    <div class="search-form">
+
+                        <form class="navbar-form" role="search">
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder="search">
+
+                            </div>
+
+                            <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+
+                    <div class="cart">
+
+                        <div class="cart-icon">
+
+                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+
+                        </div>
+
+                        <div class="cart-text">
+
+                            CARRITO
+
+                            <br>
+
+                            0 productos - S/0.00
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <!-- Login y Registro -->
@@ -91,7 +149,8 @@
                     <form action="#">
                         <div class="mb-4">
                             <label for="correo" class="form-label">Correo</label>
-                            <input type="email" class="form-control" name="correo" placeholder="example@correo.com"required>
+                            <input type="email" class="form-control" name="correo" placeholder="example@correo.com"
+                                required>
                         </div>
                         <div class="mb-4">
                             <label for="nombre" class="form-label">Contraseña</label>
@@ -165,7 +224,18 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-3">
+
+            <div class="col-md-4 col-sm-3">
+                <div class="single-widget">
+                    <img src="images/logo-blue-med-blanco.png" alt="BlueMED">
+                    <div class="info">
+                        <p class="info">Scrubs médicos con tecnología antifluido para profesionales imparables como tú.
+                            Siéntete cómodo las 24x7.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-3">
                 <div class="single-widget">
                     <h2 class="widget-title">Nosotros</h2>
                     <div class="info">
@@ -178,7 +248,7 @@
             </div>
 
 
-            <div class="col-md-6 col-sm-3">
+            <div class="col-md-4 col-sm-3">
                 <div class="single-widget">
                     <h2 class="widget-title">Nuestros servicios</h2>
                     <div class="widget-inner">
